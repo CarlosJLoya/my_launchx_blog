@@ -9,6 +9,9 @@ Te invito a conocer mis aprendizajes y leer mis experiencias.
 🚀Semana 1 GitHub, Forks, editar, commit y finalmente Actions de git
 
 **Inicializando****Git**
+Clonar repositorio
+git clone git@github.com:CarlosJLoya/my_launchx_blog.git
+
 
 * **Git** **init**
 * **Ls –la**
@@ -57,3 +60,12 @@ Te invito a conocer mis aprendizajes y leer mis experiencias.
 * Git fetch
 * * **Recupera** **los** **cambios** sin **afectar** **el** **repositorio** **local**
 * **Git push** **origen** **master**
+
+visualizar llave agregada
+ssh -T -ai ~/.ssh/id_rsa git@github.com
+
+ver llave
+cat ~/.ssh/id_rsa.pub
+
+
+
