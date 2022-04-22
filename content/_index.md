@@ -1,71 +1,188 @@
----
-title: Launch X Mis Apuntes
-description: Compartiendo experiencias y aprendizaje de este viaje.
----
-Hola ✌️  soy el explorer Carlos Loya y este es mi blog personal donde compartiré mis aventuras de Launch X.
+--- 
 
-Te invito a conocer mis aprendizajes y leer mis experiencias.
+Title: GIT 
 
-🚀Semana 1 GitHub, Forks, editar, commit y finalmente Actions de git
+Description: Git primeros comandos. 
 
-**Inicializando****Git**
-Clonar repositorio
-git clone git@github.com:CarlosJLoya/my_launchx_blog.git
+--- 
+
+Bienvenidos mi nombre Carlos Loya y este es mi blog personal donde compartiré pequeños aprendizajes que tal vez les puedan servir. 
+
+  
+
+  
+
+Comandos basicos de Terminal 
+
+Cd 
+
+Cd.. 
+
+Ls 
+
+Cls 
+
+Mkdir 
+
+ 
+
+Estos comandos te ayudaran a desplazarte entre tus carpetas existen muchos mas 
+
+ 
+
+Editor de Texto 
+
+Para trabajar con una mayor facilidad es importante tener un editor de texto estos son algunos que se pueden instalar 
+
+ 
+
+ VsCode 
+
+ Sublime Text 
+
+ Atom 
+
+ Brackets 
+
+ 
+
+ 
 
 
-* **Git** **init**
-* **Ls –la**
-* **Git config -**-global user.name "**CarlosJLoya**"
-* **Git config --global** **user.email** email
+Inicializando Git    
 
----
+ 
 
-**Commit**
+Instruccion 
 
-* **Git status**
-* **Git add** **nombreArchivo**
-* **Git** **satus**
-* **Git commit --m "**comentario**"**
-* **Git log**
+Detalles 
 
----
+Comentarios 
 
-**Diferencias** **y** **deshacer** **cambios**
+Git config -global user.name 
 
----
+ 
 
-* **Git diff** **nombreArchivo**
-* **Git checkup --** **nombreArchivo**
+"Usuario" 
 
----
+ 
 
-**Regresando** **un commit**
+Configurar tu cuenta en Git Hub 
 
----
+ 
 
-* Git log --**oneline**
+Git config --global 
 
----
+ 
 
-* **Git reset** **numeroLog** **solo** **laos** **primersos** **digitos** **son** **necesarios**
+user.email 
 
----
+ 
 
-**Enviar** **a** **repositorio** **remoto**
+ 
 
----
+ git clone 
 
-* **Git my**
-* Git remote –v
-* Git fetch
-* * **Recupera** **los** **cambios** sin **afectar** **el** **repositorio** **local**
-* **Git push** **origen** **master**
+http/repositorio a clonar  
 
-visualizar llave agregada
-ssh -T -ai ~/.ssh/id_rsa git@github.com
+Al clonar un repositorio no es necesario inicializarlo de manera local ni enlazarlo. 
 
-ver llave
-cat ~/.ssh/id_rsa.pub
+Git init 
 
+ 
+
+Inicializa un repositorio de manera local segun la carpeta seleccionada 
+
+Git status 
+
+ 
+
+Muestra la informacion de archivos agregados o modificados  
+
+Git add 
+
+. Para todos los archivos o nombre especifico 
+
+Agrega el archivo con los cambios o nuevo para el proximo commit donde los commits nos ayudaran a recuperar el estado de los cambios al commit seleccionado 
+
+Git commit --m 
+
+"comentario especifico por el usuario" 
+
+Realiza el commit que quedara registrado con todas las modificaciones agregadas en el recomendacion especial realizar commits atomicos. 
+
+ 
+
+Git remote add 
+
+http/repositorio 
+
+Liga el repositorio local a un repositorio remoto 
+
+Git remote -v 
+
+ 
+
+Muestra las branches 
+
+Git branch 
+
+-a 
+
+Muestra la branchlocal 
+
+Git push 
+
+Origin main 
+
+Branch local branch remota 
+
+Git log 
+
+--prety=oneline 
+
+Muestra el historial de commits realizados  
+
+Git diff 
+
+Nombre del archivo 
+
+Muestra los ultimos cambios realizados 
+
+Git checkout 
+
+--Nombre del archivo 
+
+Deshace los ultimos cambios 
+
+Git reset 
+
+numeroLog 
+
+Solo los primeros digitos son necesarios para regresar el proyecto a ese estado del commit seleccionado 
+
+Git fetch 
+
+ 
+
+Recupera los cambios sin afectar el repositorio local 
+
+  
+
+ 
+
+ En terminal podemos ver la llave de Git    
+
+ 
+
+ Visualizar llave agregada 
+
+ssh -T -ai ~/.ssh/id_rsa git@github.com 
+
+  
+
+ver llave 
+
+cat ~/.ssh/id_rsa.pub 
 
 
