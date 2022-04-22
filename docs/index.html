@@ -5,7 +5,7 @@
 	<meta name="generator" content="Hugo 0.92.0" />
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Launch X Mis Apuntes - Bitácora de Viaje</title>
+  <title>GIT - Bitácora de Viaje</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="https://carlosjloya.github.io/my_launchx_blog/favicon.png">
 
@@ -15,12 +15,12 @@
   
 
   
-    <meta name="description" content="Compartiendo experiencias y aprendizaje de este viaje."/>
-    <meta property="og:title" content="Launch X Mis Apuntes"/>
+    <meta name="description" content="Git primeros comandos."/>
+    <meta property="og:title" content="GIT"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://carlosjloya.github.io/my_launchx_blog/"/>
     
-    <meta property="og:description" content="Compartiendo experiencias y aprendizaje de este viaje."/>
+    <meta property="og:description" content="Git primeros comandos."/>
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@CarlosJLoya"/>
     <meta name="twitter:creator" content="@CarlosJLoya"/>
@@ -64,63 +64,73 @@
   
 
   <div class="intro">
-    <h1>Launch X Mis Apuntes<span class="dot">.</span></h1>
-    <div class="intro-content"><p>Hola ✌️  soy el explorer Carlos Loya y este es mi blog personal donde compartiré mis aventuras de Launch X.</p>
-<p>Te invito a conocer mis aprendizajes y leer mis experiencias.</p>
-<p>🚀Semana 1 GitHub, Forks, editar, commit y finalmente Actions de git</p>
-<p><strong>Inicializando****Git</strong>
-Clonar repositorio
-git clone <a href="mailto:git@github.com">git@github.com</a>:CarlosJLoya/my_launchx_blog.git</p>
-<ul>
-<li><strong>Git</strong> <strong>init</strong></li>
-<li><strong>Ls –la</strong></li>
-<li><strong>Git config -</strong>-global user.name &ldquo;<strong>CarlosJLoya</strong>&rdquo;</li>
-<li><strong>Git config &ndash;global</strong> <strong>user.email</strong> email</li>
-</ul>
-<hr>
-<p><strong>Commit</strong></p>
-<ul>
-<li><strong>Git status</strong></li>
-<li><strong>Git add</strong> <strong>nombreArchivo</strong></li>
-<li><strong>Git</strong> <strong>satus</strong></li>
-<li><strong>Git commit &ndash;m &ldquo;<strong>comentario</strong>&quot;</strong></li>
-<li><strong>Git log</strong></li>
-</ul>
-<hr>
-<p><strong>Diferencias</strong> <strong>y</strong> <strong>deshacer</strong> <strong>cambios</strong></p>
-<hr>
-<ul>
-<li><strong>Git diff</strong> <strong>nombreArchivo</strong></li>
-<li><strong>Git checkup &ndash;</strong> <strong>nombreArchivo</strong></li>
-</ul>
-<hr>
-<p><strong>Regresando</strong> <strong>un commit</strong></p>
-<hr>
-<ul>
-<li>Git log &ndash;<strong>oneline</strong></li>
-</ul>
-<hr>
-<ul>
-<li><strong>Git reset</strong> <strong>numeroLog</strong> <strong>solo</strong> <strong>laos</strong> <strong>primersos</strong> <strong>digitos</strong> <strong>son</strong> <strong>necesarios</strong></li>
-</ul>
-<hr>
-<p><strong>Enviar</strong> <strong>a</strong> <strong>repositorio</strong> <strong>remoto</strong></p>
-<hr>
-<ul>
-<li><strong>Git my</strong></li>
-<li>Git remote –v</li>
-<li>Git fetch</li>
-<li>
-<ul>
-<li><strong>Recupera</strong> <strong>los</strong> <strong>cambios</strong> sin <strong>afectar</strong> <strong>el</strong> <strong>repositorio</strong> <strong>local</strong></li>
-</ul>
-</li>
-<li><strong>Git push</strong> <strong>origen</strong> <strong>master</strong></li>
-</ul>
-<p>visualizar llave agregada
-ssh -T -ai ~/.ssh/id_rsa <a href="mailto:git@github.com">git@github.com</a></p>
-<p>ver llave
-cat ~/.ssh/id_rsa.pub</p>
+    <h1>GIT<span class="dot">.</span></h1>
+    <div class="intro-content"><p>Bienvenidos mi nombre Carlos Loya y este es mi blog personal donde compartiré pequeños aprendizajes que tal vez les puedan servir.</p>
+<p>Comandos basicos de Terminal</p>
+<p>Cd</p>
+<p>Cd..</p>
+<p>Ls</p>
+<p>Cls</p>
+<p>Mkdir</p>
+<p>Estos comandos te ayudaran a desplazarte entre tus carpetas existen muchos mas</p>
+<p>Editor de Texto</p>
+<p>Para trabajar con una mayor facilidad es importante tener un editor de texto estos son algunos que se pueden instalar</p>
+<p>VsCode</p>
+<p>Sublime Text</p>
+<p>Atom</p>
+<p>Brackets</p>
+<p>Inicializando Git</p>
+<p>Instruccion</p>
+<p>Detalles</p>
+<p>Comentarios</p>
+<p>Git config -global user.name</p>
+<p>&ldquo;Usuario&rdquo;</p>
+<p>Configurar tu cuenta en Git Hub</p>
+<p>Git config &ndash;global</p>
+<p>user.email</p>
+<p>git clone</p>
+<p>http/repositorio a clonar</p>
+<p>Al clonar un repositorio no es necesario inicializarlo de manera local ni enlazarlo.</p>
+<p>Git init</p>
+<p>Inicializa un repositorio de manera local segun la carpeta seleccionada</p>
+<p>Git status</p>
+<p>Muestra la informacion de archivos agregados o modificados</p>
+<p>Git add</p>
+<p>. Para todos los archivos o nombre especifico</p>
+<p>Agrega el archivo con los cambios o nuevo para el proximo commit donde los commits nos ayudaran a recuperar el estado de los cambios al commit seleccionado</p>
+<p>Git commit &ndash;m</p>
+<p>&ldquo;comentario especifico por el usuario&rdquo;</p>
+<p>Realiza el commit que quedara registrado con todas las modificaciones agregadas en el recomendacion especial realizar commits atomicos.</p>
+<p>Git remote add</p>
+<p>http/repositorio</p>
+<p>Liga el repositorio local a un repositorio remoto</p>
+<p>Git remote -v</p>
+<p>Muestra las branches</p>
+<p>Git branch</p>
+<p>-a</p>
+<p>Muestra la branchlocal</p>
+<p>Git push</p>
+<p>Origin main</p>
+<p>Branch local branch remota</p>
+<p>Git log</p>
+<p>&ndash;prety=oneline</p>
+<p>Muestra el historial de commits realizados</p>
+<p>Git diff</p>
+<p>Nombre del archivo</p>
+<p>Muestra los ultimos cambios realizados</p>
+<p>Git checkout</p>
+<p>&ndash;Nombre del archivo</p>
+<p>Deshace los ultimos cambios</p>
+<p>Git reset</p>
+<p>numeroLog</p>
+<p>Solo los primeros digitos son necesarios para regresar el proyecto a ese estado del commit seleccionado</p>
+<p>Git fetch</p>
+<p>Recupera los cambios sin afectar el repositorio local</p>
+<p>En terminal podemos ver la llave de Git</p>
+<p>Visualizar llave agregada</p>
+<p>ssh -T -ai ~/.ssh/id_rsa <a href="mailto:git@github.com">git@github.com</a></p>
+<p>ver llave</p>
+<p>cat ~/.ssh/id_rsa.pub</p>
 </div>
   </div>
 
