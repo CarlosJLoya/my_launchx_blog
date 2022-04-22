@@ -1,0 +1,128 @@
+LaunchX NodeJS Semana 3 
+
+Referencias 
+
+https://www.w3schools.com/nodejs/nodejs_npm.asp 
+
+https://jestjs.io/ 
+
+https://martinfowler.com/bliki/UnitTest.html 
+
+ 
+
+Libro 
+
+ 
+
+progit 
+
+ 
+
+Sugerencias 
+
+Jest unit testing buscar 
+
+Comprimir LOG de Git 
+
+ 
+
+ 
+
+Me quede en el min 48 
+
+ 
+
+ 
+
+Creando Proyecto 
+
+Versionar con git init 
+
+Npm init 
+
+Npm install 
+
+npm install --save-dev jest 
+
+Gitignore **/carpeta 
+
+Git remote add origin http/......... 
+
+git branch -M main 
+
+git push -u origin main 
+
+git log --pretty=oneline 
+
+ 
+
+Estructura del proyecto                       
+
+v MY LAUNCH APP 
+v app 
+JS Ajolonauta.js 
+> node_modules 
+v test 
+JS Ajolonauta.test.js 
+JS indexjs 
+{l package-lockjson 
+l} package.json 
+ 
+
+TDD 
+
+Pruebas que falle importante 
+
+Se empieza a modelar por el TDD 
+
+ 
+
+Pruebas QA 
+
+BDD 
+
+ADD 
+
+Pruebas funcionales 
+
+ 
+
+Live 2 Express 
+
+API: Aplication Programming Interface 
+
+(La manera de accesar al app servidor) 
+
+ 
+
+Descargar Postman 
+
+ 
+
+Metdos HTTP REQUEST 
+
+GET   Regresar 200 
+
+POST Crear  201 
+
+PUT Actualizar 200 
+
+DELETE  Eliminar 200 
+
+ 
+
+En el servidor se crean ENPOINTS para aceptar los metodos http del cliente 
+
+ 
+
+ 
+
+POSTMAN 
+
+Herramienta para realizar las peticiones 
+
+ 
+
+Libro 
+
+Seguridad backend o-out 
